@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media (max-width: 480px) {
+    .carousel-images img {
+        height: 200px;   
+    }
+}
+
+.carousel-images img {
+    width: 100%;     
+    height: 600px;
+    display: block;
+    object-fit: contain;
+}
+
+header {
+    padding: 20px;
+    background-color: lightpink;
+}
+
+h1, h2, label, footer {
+    font-family: "Edu NSW ACT Cursive", cursive;
+    color: #fff;
+    font-size: larger;
+}
+
+body {
+    background-color: rgb(246, 202, 209);
+}
+
+h2{
+    margin: 20px;
+    text-align: center;
+}
+
+.container {
+    background-color: rgb(248, 166, 178);
+}
+
+input{
+    margin-top: 15px;
+    padding: 8px;
+    font-family: "Anton", serif;
+    border-radius: 8px;
+    font-size: 15px;
+    background-color: rgb(246, 202, 209);
+}
+
+input:focus {
+    transform: scale(1.01);
+    box-shadow: 0 0 8px;
+}
+
+.form-campo {
+display: flex;
+align-items: center;  
+margin-bottom: 8px;
+}
+
+.form-campo label {
+width: 120px;          
+font-weight: bold;
+}
+
+label {
+margin-left: 10px;
+margin-bottom: 5px; 
+display: block;
+font-weight: bold;
+}
+
+button {
+    background-color: lightpink;
+    color: #fff;
+    font-family: "Edu NSW ACT Cursive", cursive;
+    font-weight: bold;
+    margin-left: 10px;
+    padding: 8px 10px;
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+}
